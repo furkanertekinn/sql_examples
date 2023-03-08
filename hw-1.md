@@ -14,6 +14,10 @@
 
 ## `select * from Production.Product where Color = 'Black' `
 
-# Production.Product tablosunda bulunan ProductNumber verisinin içindeki F harfi ile başlayanları getirdik.
+# Production.Product tablosunda bulunan ProductNumber verisinin içinde ki F harfi ile başlayanları getirdik.
 
 ## `select * from Production.Product where ProductNumber like 'F%' `
+
+# Production.Product tablosunda yer alan Name verisinin içerisinde a harfi bulunanları getirdik.
+
+## `select * from Production.Product where Name like '%a%' `
