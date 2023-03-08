@@ -18,6 +18,6 @@
 
 ## `select * from Production.Product where ProductNumber like 'F%' `
 
-# Production.Product tablosunda yer alan Name verisi içerisinde a harfi bulunanları getirdik.
+# Production.Product tablosunda yer alan Name verisi içinde a harfi bulunanları getirdik.
 
 ## `select * from Production.Product where Name like '%a%' `
