@@ -9,3 +9,7 @@
 # Production.Product tablosunda bulunan MakeFlag verisinin sıfıra eşit olanlarını getirdik.
 
 ## `select * from Production.Product where MakeFlag = 0 `
+
+# Production.Product tablosunda bulunan Color verisini Black olarak getirdik.
+
+## `select * from Production.Product where Color = 'Black' `
