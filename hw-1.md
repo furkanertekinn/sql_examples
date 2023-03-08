@@ -13,3 +13,7 @@
 # Production.Product tablosunda bulunan Color verisini Black olarak getirdik.
 
 ## `select * from Production.Product where Color = 'Black' `
+
+# Production.Product tablosunda bulunan ProductNumber verisinin içindeki F harfi ile başlayanları getirdik.
+
+## `select * from Production.Product where ProductNumber like 'F%' `
