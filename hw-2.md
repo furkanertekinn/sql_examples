@@ -9,3 +9,7 @@
 # Person.Person tablosundan FirstName ve LastName verilerini çekerek başlıklarını türkçeye çevirdik.
 
 ## `select FirstName Isim , LastName Soyisim from Person.Person `
+
+# Sales.SalesOrderHeader tablosundan TerritoryID verisini IN komutu ile koşullu olarak ekrana getirdik.
+
+## `select * from Sales.SalesOrderHeader where TerritoryID in(1,2,3) `
