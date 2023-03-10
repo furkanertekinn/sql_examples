@@ -2,6 +2,10 @@
 
 ## `select * from Sales.SalesOrderDetail where UnitPrice between 5.70 and 714.7043 and CarrierTrackingNumber like '%E' `
 
+# Person.Person tablosundan PersonType'ı EM olan ve isminin içerisinde c harfi bulunan ve EmailPromotion'ı 2 ye eşit olanları getirdik.
+
+## `select * from Person.Person where PersonType = 'EM' and FirstName like '%c%' and EmailPromotion = 2 `
+
 # Sales.SalesOrderHeader tablosundan TerritoryID verisini IN komutu ile koşullu olarak ekrana getirdik.
 
 ## `select * from Sales.SalesOrderHeader where TerritoryID in(1,2,3) `
