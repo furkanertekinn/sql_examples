@@ -9,3 +9,7 @@
 # Person.Person tablosunda count fonksiyonunu kullanarak toplam kayıt sayısını ekrana getirdik.
 
 ## `select count(*) from Person.Person `
+
+# Sales.SalesOrderHeader tablosunda SalesOrderID sütunundaki verilerin toplamını 'sum' fonksiyonu kullanarak görüntüledik.
+
+## `select sum(SalesOrderID) from Sales.SalesOrderHeader `
