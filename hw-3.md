@@ -6,7 +6,7 @@
 
 ## `select CustomerID as MusteriNumarasi from Sales.Customer `
 
-# Person.Person tablosunda count fonksiyonunu kullanarak toplam kayıt sayısını ekrana getirdik.
+# Person.Person tablosunda 'count' fonksiyonunu kullanarak toplam kayıt sayısını ekrana getirdik.
 
 ## `select count(*) from Person.Person `
 
