@@ -17,3 +17,7 @@
 # Production.Product tablosunda ReorderPoint sütunundaki verilerin ortalamasını 'avg' fonksiyonu kullanarak görüntüledik.
 
 ## `select avg(ReorderPoint) from Production.Product `
+
+# Sales.Customer tablosunda TerritoryID sütunundaki verilerin en küçük değerini 'min' fonksiyonu kullanarak ekrana getirdik.
+
+## `select min(TerritoryID) from Sales.Customer `
