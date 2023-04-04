@@ -21,3 +21,7 @@
 # Sales.Customer tablosunda TerritoryID sütunundaki verilerin en küçük değerini 'min' fonksiyonu kullanarak ekrana getirdik.
 
 ## `select min(TerritoryID) from Sales.Customer `
+
+# Sales.Customer tablosunda StoreID sütunundaki verilerin en büyük değerini 'max' fonksiyonu kullanarak ekrana getirdik.
+
+## `select max(StoreID) from Sales.Customer `
