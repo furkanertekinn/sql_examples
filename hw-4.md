@@ -9,3 +9,7 @@
 # Sales.Customer tablosunda TerritoryID değerlerini grup halinde getirdik ve count'larını miktar olarak adlandırdıktan sonra değerleri büyükten küçüğe doğru sıralayıp ekrana getirdik.
 
 ## `select TerritoryID, count(*) as miktar from Sales.Customer group by TerritoryID order by count(*) desc `
+
+# HumanResources.Employee tablosunda OrganizationLevel sütunundaki 1'den büyük değerleri grup halinde ekrana getirip küçükten büyüğe doğru sıraladık.
+
+## `select OrganizationLevel, count(*) from HumanResources.Employee where OrganizationLevel >1 group by OrganizationLevel order by count(*) asc `
