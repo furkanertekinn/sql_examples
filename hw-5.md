@@ -6,6 +6,6 @@
 
 ## `select * from Sales.SalesOrderHeader SOH inner join Sales.Customer SC on SOH.TerritoryID = SC.TerritoryID `
 
-# Product
+# Products tablosu ile Categories tablosunda bulunan CategoryID değerinin eşleşenlerini INNER JOIN ile ekrana getirdik 
 
 ## `select ProductName,LEN(CategoryName) as [category lenght] from Products Products P inner join Categories C on P.CategoryID = C.CategoryID order by [category lenght] asc `
