@@ -4,5 +4,4 @@
 
 # Sales.SalesOrderHeader tablosu ile Sales.Customer tablosunda bulunan TerritoryID değerini birlikte görebilmek için RIGHT JOIN sorgusu ile ekrana getirdik.
 
-## `select * from HumanResources.Employee right join Person.Person on HumanResources.Employee.BusinessEntityID = Person.Person.BusinessEntityID`
-Sales.SalesOrderHeader tablosu ile Sales.Customer tablosunda bulunan TerritoryID
+## `select * from Sales.SalesOrderHeader right join Sales.Customer on Sales.SalesOrderHeader.TerritoryID = Sales.Customer.TerritoryID`
