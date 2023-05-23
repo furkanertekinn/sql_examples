@@ -2,6 +2,7 @@
 
 ## `select * from HumanResources.Employee left join Person.Person on HumanResources.Employee.BusinessEntityID = Person.Person.BusinessEntityID`
 
-# HumanResources.Employee tablosu ile Person.Person tablosunda bulunan BusinessEntityID değerini birlikte görebilmek için RIGHT JOIN sorgusu ile ekrana getirdik.
+# Sales.SalesOrderHeader tablosu ile Sales.Customer tablosunda bulunan TerritoryID değerini birlikte görebilmek için RIGHT JOIN sorgusu ile ekrana getirdik.
 
 ## `select * from HumanResources.Employee right join Person.Person on HumanResources.Employee.BusinessEntityID = Person.Person.BusinessEntityID`
+Sales.SalesOrderHeader tablosu ile Sales.Customer tablosunda bulunan TerritoryID
