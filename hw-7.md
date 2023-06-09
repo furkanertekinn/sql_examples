@@ -1,2 +1,2 @@
 set
-insert
+insert into
